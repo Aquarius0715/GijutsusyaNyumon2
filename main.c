@@ -17,9 +17,7 @@ int main() {
      * 文字を取得
      */
 
-    printf("Input character: ");
-
-    scanf("%c", &chara);
+    printf("Input character: "); scanf("%c", &chara);
 
     printf("Character = %c\n", chara);
 
@@ -27,7 +25,7 @@ int main() {
      * 文字が小文字かどうかを判定
      */
 
-    for (char character = 'a'; character <= 'z'; ++character) {
+    for (char character = 'a'; character <= 'z'; character++) {
 
         if (character != chara) {
 
