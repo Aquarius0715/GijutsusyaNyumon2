@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GijutsusyaNyumon2.dir/main.c.o"
+  "CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o"
   "GijutsusyaNyumon2"
   "GijutsusyaNyumon2.pdb"
 )

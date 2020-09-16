@@ -143,32 +143,32 @@ GijutsusyaNyumon2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GijutsusyaNyumon2.dir/build.make CMakeFiles/GijutsusyaNyumon2.dir/build
 .PHONY : GijutsusyaNyumon2/fast
 
-main.o: main.c.o
+GijutsusyaNyumon2.o: GijutsusyaNyumon2.c.o
 
-.PHONY : main.o
+.PHONY : GijutsusyaNyumon2.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GijutsusyaNyumon2.dir/build.make CMakeFiles/GijutsusyaNyumon2.dir/main.c.o
-.PHONY : main.c.o
+GijutsusyaNyumon2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GijutsusyaNyumon2.dir/build.make CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o
+.PHONY : GijutsusyaNyumon2.c.o
 
-main.i: main.c.i
+GijutsusyaNyumon2.i: GijutsusyaNyumon2.c.i
 
-.PHONY : main.i
+.PHONY : GijutsusyaNyumon2.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GijutsusyaNyumon2.dir/build.make CMakeFiles/GijutsusyaNyumon2.dir/main.c.i
-.PHONY : main.c.i
+GijutsusyaNyumon2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GijutsusyaNyumon2.dir/build.make CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.i
+.PHONY : GijutsusyaNyumon2.c.i
 
-main.s: main.c.s
+GijutsusyaNyumon2.s: GijutsusyaNyumon2.c.s
 
-.PHONY : main.s
+.PHONY : GijutsusyaNyumon2.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GijutsusyaNyumon2.dir/build.make CMakeFiles/GijutsusyaNyumon2.dir/main.c.s
-.PHONY : main.c.s
+GijutsusyaNyumon2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GijutsusyaNyumon2.dir/build.make CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.s
+.PHONY : GijutsusyaNyumon2.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GijutsusyaNyumon2"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... GijutsusyaNyumon2.o"
+	@echo "... GijutsusyaNyumon2.i"
+	@echo "... GijutsusyaNyumon2.s"
 .PHONY : help
 
 

@@ -22,40 +22,32 @@ int main() {
     printf("Character = %c\n", chara);
 
     /*
-     * 文字が小文字かどうかを判定
+     * 文字が大文字か小文字かを判定
      */
 
-    for (char character = 'a'; character <= 'z'; character++) {
+    for (char character = 'A'; character <= 'z'; character++) {
 
-        if (character != chara) {
+        //printf("%d %c\n", character, character);
+
+        if (character != chara || character >= 91 && character <= 96) {
 
             continue;
 
         } else {
 
-            printf("Small Letter\n");
+            if (character <= 90) {
 
-            return 0;
+                printf("Capital Letter");
 
-        }
+                return 0;
 
-    }
+            } else {
 
-    /*
-     * 文字が大文字かどうかを判定
-     */
+                printf("Small Letter");
 
-    for (char character = 'A'; character <= 'Z'; ++character) {
+                return 0;
 
-        if (character != chara) {
-
-            continue;
-
-        } else {
-
-            printf("Capital Letter\n");
-
-            return 0;
+            }
 
         }
 
@@ -65,7 +57,7 @@ int main() {
      * 大文字でも小文字でもない場合
      */
 
-    printf("Neither\n");
+    printf("Neither");
 
     return 0;
 

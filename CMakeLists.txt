@@ -3,4 +3,4 @@ project(GijutsusyaNyumon2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GijutsusyaNyumon2 main.c)
+add_executable(GijutsusyaNyumon2 GijutsusyaNyumon2.c)

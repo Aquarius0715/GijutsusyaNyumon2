@@ -77,27 +77,27 @@ include CMakeFiles/GijutsusyaNyumon2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GijutsusyaNyumon2.dir/flags.make
 
-CMakeFiles/GijutsusyaNyumon2.dir/main.c.o: CMakeFiles/GijutsusyaNyumon2.dir/flags.make
-CMakeFiles/GijutsusyaNyumon2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GijutsusyaNyumon2.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GijutsusyaNyumon2.dir/main.c.o   -c /Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/main.c
+CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o: CMakeFiles/GijutsusyaNyumon2.dir/flags.make
+CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o: ../GijutsusyaNyumon2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o   -c /Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/GijutsusyaNyumon2.c
 
-CMakeFiles/GijutsusyaNyumon2.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GijutsusyaNyumon2.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/main.c > CMakeFiles/GijutsusyaNyumon2.dir/main.c.i
+CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/GijutsusyaNyumon2.c > CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.i
 
-CMakeFiles/GijutsusyaNyumon2.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GijutsusyaNyumon2.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/main.c -o CMakeFiles/GijutsusyaNyumon2.dir/main.c.s
+CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/GijutsusyaNyumon2.c -o CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.s
 
 # Object files for target GijutsusyaNyumon2
 GijutsusyaNyumon2_OBJECTS = \
-"CMakeFiles/GijutsusyaNyumon2.dir/main.c.o"
+"CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o"
 
 # External object files for target GijutsusyaNyumon2
 GijutsusyaNyumon2_EXTERNAL_OBJECTS =
 
-GijutsusyaNyumon2: CMakeFiles/GijutsusyaNyumon2.dir/main.c.o
+GijutsusyaNyumon2: CMakeFiles/GijutsusyaNyumon2.dir/GijutsusyaNyumon2.c.o
 GijutsusyaNyumon2: CMakeFiles/GijutsusyaNyumon2.dir/build.make
 GijutsusyaNyumon2: CMakeFiles/GijutsusyaNyumon2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable GijutsusyaNyumon2"

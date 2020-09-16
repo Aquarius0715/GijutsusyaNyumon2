@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/main.c">
+		<Unit filename="/Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/GijutsusyaNyumon2.c">
 			<Option target="GijutsusyaNyumon2"/>
 		</Unit>
 		<Unit filename="/Users/kitanomasaki/CLionProjects/GijutsusyaNyumon2/CMakeLists.txt">
