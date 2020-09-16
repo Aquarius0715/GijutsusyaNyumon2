@@ -29,25 +29,19 @@ int main() {
 
         //printf("%d %c\n", character, character);
 
-        if (character != chara || character >= 91 && character <= 96) {
+        if (character != chara || character >= 91 && character <= 96) continue;
 
-            continue;
+        if (character <= 90) {
+
+            printf("Capital Letter");
+
+            return 0;
 
         } else {
 
-            if (character <= 90) {
+            printf("Small Letter");
 
-                printf("Capital Letter");
-
-                return 0;
-
-            } else {
-
-                printf("Small Letter");
-
-                return 0;
-
-            }
+            return 0;
 
         }
 
